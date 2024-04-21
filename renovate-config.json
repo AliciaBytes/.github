@@ -1,12 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:best-practices"
+    "config:best-practices",
+    ":preserveSemverRanges"
   ],
-  "automergeStrategy": "fast-forward",
   "configMigration": true,
   "configWarningReuseIssue": false,
-  "platformAutomerge": false,
   "osvVulnerabilityAlerts": true,
   "lockFileMaintenance": {
     "enabled": true,
