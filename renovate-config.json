@@ -4,9 +4,8 @@
     "config:best-practices",
     ":preserveSemverRanges"
   ],
-  "automergeComment": "/fast-forward",
   "automergeStrategy": "fast-forward",
-  "automergeType": "pr-comment",
+  "automergeType": "pr",
   "configMigration": true,
   "configWarningReuseIssue": false,
   "osvVulnerabilityAlerts": true,
